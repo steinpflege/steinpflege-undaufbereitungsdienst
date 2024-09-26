@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nachricht gesendet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e0e0;
+            color: #2e4d3b;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #2e4d3b;
+            background-color: #365942;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #f0f0f0;
+        }
+        a:hover {
+            background-color: #2e4d3b;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vielen Dank für Ihre Nachricht!</h1>
+    <p>Wir werden uns in Kürze um Sie kümmern.</p>
+    <a href="index.html">Zurück zur Startseite</a>
+</body>
+</html>
